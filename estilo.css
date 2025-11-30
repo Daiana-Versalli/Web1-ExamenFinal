@@ -1,0 +1,135 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custom-carousel {
+    width: 80%; 
+}
+
+.custom-carousel img {
+    height: 400px;      
+    object-fit: cover;  
+    border-radius: 12px;
+}
+
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f2e9;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    color: #3d3d3d;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 3px solid #c4a484; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    padding: 8px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4e6c3b; 
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #85a675; 
+}
+
+.nav-link.active {
+    color: #4e6c3b !important;
+    border-bottom: 3px solid #85a675; 
+}
+
+h2 {
+     margin-top: 20px;
+}
+
+h1 {
+    font-family: "Sigmar", sans-serif;
+    font-size: 4rem;
+    color: #4e6c3b; 
+    margin-top: 50px;
+    text-shadow: 2px 2px 0px #d9d4c6;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+section {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 15px;
+    border-left: 8px solid #c4a484; 
+    border-right: 8px solid #c4a484; 
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.custom-carousel {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    border: 5px solid #4e6c3b; 
+}
+
+.custom-carousel img {
+    max-height: 380px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(80%) sepia(20%) saturate(200%) hue-rotate(45deg);
+}
+
+.carousel-indicators button {
+    background-color: #4e6c3b;
+}
+
+.carousel-indicators .active {
+    background-color: #85a675;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 18px;
+    background-color: #4e6c3b; 
+    color: #fffbea;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.img {
+    height: 400px;      
+    object-fit: cover;  
+    border-radius: 20px;
+    width: 30%; 
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    border: 5px solid #4e6c3b;
+    max-height: 380px;
+    object-fit: cover;
+}
